@@ -1,0 +1,21 @@
+body {
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+}
+
+button {
+  background-color: teal;
+  color: white;
+
+  border-radius: 99px;
+  padding: 10px 20px;
+  border: 2px inset rgb(0, 69, 69);
+
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+button:hover {
+  text-decoration: underline;
+  scale: 1.5;
+}
